@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "es2017",
+        "module": "commonjs",
+        "outDir": "dist",
+        "rootDir": ".",
+        "sourceMap": true,
+        "experimentalDecorators": true,
+        "esModuleInterop": true,
+        "strict": true,
+        "strictPropertyInitialization": false,
+    },
+    "include": ["src/**/*"],
+    "exclude": [
+        "./dist",
+        "./node_modules",
+        "**/*.test.ts"
+    ]
+}
